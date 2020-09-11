@@ -1,1 +1,97 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
 
+    <legend><strong>Login form</strong></legend>
+        <table>
+             <tr>
+                 <td>Name</td>
+                 <td><input type"text"  
+                            id="txtName" 
+                            name="txtName"
+                            placeholder="Enter username here"
+                            />
+                </td>
+             </tr>
+             <tr>
+                 <td>Password</td>
+                 <td><input type"password" 
+                            id="txtPassword" 
+                            name="txtName"
+                             placeholder="Enter password here"/>
+                </td>
+             </tr>
+
+             <!--Radio Button-->
+             <tr>
+                 <td> Login Form</td>
+                 <td>
+                    <input type="radio"
+                            id="loginType"
+                            name="loginType"
+                            value="Guest"
+                            selected="selected"/>
+                    <label for="loginType">Guest</label>
+
+                    <input type="radio"
+                            id="loginType"
+                            name="loginType"
+                            value="Guest"
+                            selected="selected"/>
+                    <label for="loginType">Admin</label>
+                 </td>
+             </tr>
+
+             <!--DropDown-->
+             <tr>
+                 <td colspan="2">
+                     Login as
+                     <select name="dropLogintype" id="drpLoginType">
+                         <option value="Guest">Guest</option>
+                         <option value="Admin">Admin</option>
+                         <option value="SuperUser">SuperUser</option>                  
+                    
+          </select>
+
+     </td>
+</tr>
+
+             <!--CheckBox-->
+             <tr>
+                 <td>
+                     <input type="checkbox" 
+                            id="cbxPolicy1"
+                            name="cbxPolicy1"
+                            value= "I accept Lorem Ipsum"/>
+                     <label for="cbxPolicy1"> I accept Lorem Ipsum 1</label>
+           </td>
+         </tr
+         <tr>
+        <td>
+                <input type="checkbox" 
+           id="cbxPolicy2"
+           name="cbxPoliy2"
+          value= "I accept Lorem Ipsum 2"/>
+                    <label for="cbxPolicy2"> I accept Lorem Ipsum 2</label>
+                </td>
+            </tr>
+
+
+
+
+
+
+
+             <tr>
+             <td colspan="2" align="right">
+            <button id="btnLogin" onClick="alert(document.getElementById('txtName).value)">Login</button>
+       </td>
+      </tr>
+    </table>
+    
+     </body>
+</html>
+
+    
