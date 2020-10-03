@@ -1,0 +1,112 @@
+
+* {
+  margin: 0;
+  font-family: 'arial';
+}
+
+body {
+  height: 100vh;
+  background-color: white;
+}
+.receipt {
+  width: 500px;
+  height: 700px;
+  background-color:#12a4d9;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -360px; 
+  margin-left: -360px;
+  box-shadow: 14px 14px 22px -18px;
+  padding: 20px
+}
+
+.name {
+  text-align: right;
+  font-size: 3em;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+
+
+.order p {
+  font-size: 20px;
+  padding-left: 10px;
+  letter-spacing: .7px
+}
+
+hr {
+  border: 10px solid white;
+  margin: 15px 0;
+}
+
+.details {
+  padding-left: 10px;
+  margin-bottom: 35px;
+  overflow: hidden
+}
+
+.details h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.product {
+  float: left;
+  width: 83%
+}
+
+.product img {
+  width: 65px;
+  float: left
+}
+
+.product .info {
+  float: left;
+  margin-left: 20px;
+   font-size: 1.3em;
+   
+  
+}
+
+.product .info h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 5px
+}
+
+.product .info p {
+  font-size: 19px;
+  color: orange;
+}
+
+.details > p {
+  margin-top: 25px;
+  font-size: 15px
+}
+
+.totalprice p {
+  padding-left: 30px
+}
+
+.totalprice .pr,
+.totalprice .pr {
+  font-size: 20px;
+}
+
+.totalprice span {
+  float: right;
+  margin-right: 97px
+}
+
+.totalprice .tot {
+  font-size: 20px
+}
+
+
+.productdollar{
+  font-size:25px
+}
