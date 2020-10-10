@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    font-style: initial;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+ .logo-container{
+     display:flex;
+     margin-left: 670px; 
+     font-weight: 400px;
+}
+#search-type{
+    width: 200px;
+    margin-left: 500px;
+    display: flex;
+}
+.button {
+    background-color: rgba(221, 221, 221, 0);
+    border: none;
+    color: black;
+    padding:5px 90px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #00c3ff;
+    color: white;
+  }
+
+.nav{
+    display: flex;
+    
+}
+.nav-items{
+    display: flex;
+    color: black;
+    
+}
+.nav-links{
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+    height: 10vh;
+}
+.logo{
+    font-weight: 500;
+    font-size: 45px;
+
+   
+}
+#logo{
+    height: 50px;
+    display:flex;
+}
+.news{
+    margin-left: 150px;
+    font-size: 50px;   
+    height:15vh;
+}
+.in{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20%;
+
+}
+.contact{
+    margin-left: 150px;
+    font-size: 50px;   
+    height:15vh;
+}
+.us{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20%;
+
+}
